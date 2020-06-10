@@ -16,4 +16,9 @@ $ docker run -p 80:8080 -v $PWD:/usr/src/app webpack_demo
 - browse to localhost:8080 for local install
 - browse to localhost for docker install
 
+#### notes
+- ENV NODE_ENV production in Dockerfile will cause npm to ignore the devDependencies in package.json
+    - We will use this later to run the node server in production without webpack-dev-server
+
+
 
