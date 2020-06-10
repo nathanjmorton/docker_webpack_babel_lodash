@@ -14,8 +14,8 @@ ENV PATH /usr/src/node_modules/.bin:$PATH
 # set the app directory
 WORKDIR /usr/src/app
 COPY ./ ./ 
-# ENV PORT=8080
-# EXPOSE 8080
+ENV PORT 8080
+EXPOSE 8080
 
 # Add Tini
 ENV TINI_VERSION v0.19.0
