@@ -1,6 +1,6 @@
 import foo from './foo';
 
-const bar = foo(10,55);
+const bar = foo(0,255);
 
 export default bar;
 
