@@ -4,7 +4,7 @@
     "start": "webpack-dev-server --host 0.0.0.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
